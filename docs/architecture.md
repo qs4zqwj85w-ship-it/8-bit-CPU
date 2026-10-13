@@ -76,7 +76,7 @@ Not every instruction writes a register. Stores, jumps, output operations, and h
 
 The next-PC logic determines which instruction address the processor should use next.
 
-During ordinary execution, the processor proceeds sequentially. Jump instructions select a specified address, while conditional branches use flag information to decide whether to jump or continue.
+During ordinary execution, the processor proceeds sequentially. Jump instructions select a specified address, while conditional branches use flag information to decide whether to jump or continue. 
 
 The processor supports the following control-flow instructions:
 
@@ -93,7 +93,7 @@ The `OUT` instruction sends the value of a selected register to the CPU's simula
 
 The top-level CPU captures the output value and asserts an output-valid signal when an output operation occurs. The testbench monitors this signal and prints the result in decimal and hexadecimal.
 
-The `HLT` instruction allows a program to stop executing. The simulation runner also has a timeout to detect programs that fail to halt within the allowed number of cycles.
+The `HLT` instruction allows a program to stop executing. The simulation runner also has a timeout to detect programs that fail to halt within the allowed number of cycles. Currently its set to 10000 cycles I believe, so it doesn't indefinitely run when something is wrong.
 
 ## 8. Complete Execution Flow
 
@@ -112,4 +112,4 @@ The processor's overall workflow can be summarized as follows:
 
 This project is an educational processor designed to explore digital logic and computer architecture. Its instruction set, datapath width, and execution behavior are defined by the custom hardware implementation.
 
-The current workflow uses assembly programs and simulation rather than a general-purpose compiler or a physical processor implementation. Further development will focus on validating instruction behavior, improving automated testing, and exploring possible hardware implementation.
+The current workflow uses assembly programs and simulation rather than a general-purpose compiler or a physical processor implementation. In the future, further development will focus on validating instruction behavior, improving automated testing, and exploring possible hardware implementation. Moreover, this project was a great introduction for me to chip architecture design, as it took a lot of research and understanding, and it will definitely help me when I eventually try to design a more conventional 32 or 64 bit CPU.
