@@ -139,4 +139,4 @@ Git and GitHub
 
 AI Usage:
 
-Though this is an educational personal project so I try to minimise the use of AI, it is still used as a helper to help me debug some code and write test benches as some systemverilog test benches are beyond my current capabilities. Main chip design and architecture choices however were made entirely by me, with AI only serving as a tool instead of the main lead of the project.
+Though this is an educational personal project so I try to minimise the use of AI, it is still used as a helper to help me debug some code and write test benches as some systemverilog test benches are beyond my current capabilities. Also, despite test benches are written by AI, I explicitly asked for the specific workflow to be tested, and understood the majority of the test bench code. Main chip design and architecture choices however were made entirely by me, with AI only serving as a tool instead of the main lead of the project.
