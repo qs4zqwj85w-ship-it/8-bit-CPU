@@ -117,4 +117,26 @@ The processor uses a custom instruction set with 16 opcode values. Supported ins
 
 `NOP`, `ADD`, `SUB`, `AND`, `OR`, `XOR`, `NOT`, `LDI`, `LD`, `ST`, `JMP`, `JZ`, `JC`, `MOV`, `OUT`, and `HLT`.
 
-See the instruction-set documentation for operand formats, encoding details, and
+See the instruction-set documentation for operand formats, encoding details, and instruction semantics.
+
+Project Goals
+
+The goal is to develop a deeper understanding of digital logic and computer architecture through hands-on implementation. Future work includes expanding automated test coverage, validating memory and flag behavior, improving the assembler, and exploring hardware implementation.
+
+In the future, I hope to implement the 8 bit CPU on to a FPGA board and run it physically instead of virtually simulate it. I understand to do so will come with its own challenges but that is what this project is for I guess, for my personal growth and understanding of computer architecture so I can hopefully be a better engineer and not blow someone's computer up :). Additionally, after completing this project I plan to shift to building a more conventional and standard 32 bit RISC-V CPU, as then I would be able to use the standard open source instruction set, assembly, and compiler to implement it on to FPGA and run more sophisticated programs on there, without the need of writing a whole compiler by myself (Thats also above my current skill level and would be a whole independent project it self :(, hopefully I'll eventually get that good).
+
+Tools
+
+SystemVerilog
+
+Python
+
+Verilator
+
+Git and GitHub
+
+
+
+AI Usage:
+
+Though this is an educational personal project so I try to minimise the use of AI, it is still used as a helper to help me debug some code and write test benches as some systemverilog test benches are beyond my current capabilities. Main chip design and architecture choices however were made entirely by me, with AI only serving as a tool instead of the main lead of the project.
