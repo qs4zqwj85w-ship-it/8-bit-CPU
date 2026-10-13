@@ -6,7 +6,7 @@ This project implements a custom 8-bit processor using SystemVerilog. It uses a 
 
 The processor follows a fetch-decode-execute workflow. Instructions are stored in instruction memory, decoded into operations and operands, executed by the relevant hardware components, and used to update registers, memory, control flow, or simulation output.
 
-Unlike a general-purpose processor that can run compiled C or C++ programs, this CPU currently uses a custom instruction set. Programs must be written in the assembly language supported by the project's Python assembler.
+Unlike a general-purpose processor that can run compiled C or C++ programs, this CPU currently uses a custom instruction set. Programs must be written in the assembly language supported by the project's Python assembler. which is therefore going to be somewhat simple unfortunately :(
 
 ## 2. Program Assembly
 
