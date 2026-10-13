@@ -1,0 +1,6 @@
+LDI R1, 4
+ADD R2, R1, R1
+
+
+OUT R2
+hlt
