@@ -18,6 +18,8 @@ This project targets a RISC-V CPU. Each supported instruction must be encoded ac
 
 The exact output format depends on the assembler implementation.
 
+After knowing the input and output specs, it was just a ton of python research on how to pull this off as I am not very fluent in this programming language yet. (I've done python before here and there but nothing significant, and definitely did not use commands related to binary.)
+
 ## 3. Assembly-to-Machine-Code Workflow
 
 The assembler follows these general steps:
