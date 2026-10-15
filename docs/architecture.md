@@ -48,7 +48,7 @@ The processor's datapath contains the components responsible for operating on da
 
 The register file stores the processor's general-purpose 8-bit values. Instructions can read source registers and, when appropriate, write results to a destination register.
 
-The instruction format uses 3-bit register indices, allowing eight register addresses.
+The instruction format uses 3-bit register indices, allowing eight register addresses. I am aware that many online RISC-V allocate more bit to register, but that is because they usually have more instruction bit to work with and a larger memory, so for a 8 bit CPU with 8 registers, 3 bit is enough.
 
 ### Arithmetic Logic Unit (ALU)
 
