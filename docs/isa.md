@@ -104,3 +104,7 @@ The instruction decoder interprets machine instructions, while the control unit 
 The ISA specification should be kept consistent with the actual SystemVerilog implementation and Python assembler.
 
 Instruction-specific field layouts, flag behavior, memory addressing, branch target semantics, and output behavior should be documented explicitly based on the implemented hardware.
+
+These instruction sets were customised and designed by me, most ideas and recommendation came from online research and personal knowledge before (yes, including reddit and some users gave pretty solid advices for designing them). I didn't exactly copy anyone's architecture, though my instruction set doesn't seem like anything too unique so I wouldn't be surprised if many have used almost if not exactly the same instruction set. 
+
+I originally wished my whole cpu to be 8 bit, including the instruction set, as that is what I originally planned for this project, a newbie's tryout to learn cpu design. However, as I started trying to figuring out the instruction set, I realised 8 bit would be too limiting to the point where I could learn more by stepping out and use a 16 bit instruction. Since this project's main point was for me to learn, serving as a introductory project to cpu design, I figured it be more beneficial for me to switch to the 16 bit instruction set.
