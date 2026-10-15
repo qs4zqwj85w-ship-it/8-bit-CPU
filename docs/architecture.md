@@ -26,6 +26,8 @@ Instruction memory uses this address to provide the corresponding 16-bit instruc
 
 Under normal sequential execution, the PC advances to the next instruction. Jump and branch instructions can instead select a different address, changing the program's execution path.
 
+This I believe is fairly standard procedure for modern cpu, at least that is what my research results are telling me, so the PC counter practically came with specs and I just had to write them out with systemverilog, run test benches, and basically complete with this part.
+
 ## 4. Instruction Decode and Control
 
 The instruction decoder interprets the fetched 16-bit instruction by extracting fields such as:
