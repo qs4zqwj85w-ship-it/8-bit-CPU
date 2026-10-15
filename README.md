@@ -85,6 +85,8 @@ Additional instruction-level and integration testing is ongoing. Implemented fea
 
 The numbered directories organize the processor's hardware modules. The assembler directory contains the software tools and assembly input, while the CPU directory contains the integrated processor and simulation runner.
 
+#Notice it starts from 5 because from 0-4 were me as a newbie experimenting with systemverilog and trying to learn stuff. Sorry for those who like it to be very organised, but yeah, newbie stuff :).
+
 ## Requirements
 
 - Python 3
