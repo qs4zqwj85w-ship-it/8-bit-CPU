@@ -1,6 +1,9 @@
+# Verilator generated build files
 obj_dir/
+
+# macOS
+.DS_Store
+
+# Waveform output
 *.vcd
 *.fst
-.DS_Store
-__pycache__/
-*.pyc

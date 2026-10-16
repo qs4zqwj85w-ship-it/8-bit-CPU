@@ -1,4 +1,4 @@
-LDI R1, 4
+LDI R1, 9
 ADD R2, R1, R1
 
 
